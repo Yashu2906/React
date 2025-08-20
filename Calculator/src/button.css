@@ -1,0 +1,21 @@
+    .buttons{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap : 15px;
+        padding: 12px;
+        
+    }
+    .button{
+        height: 70px;
+        font-size: 1.2rem;
+        border: solid 0.75px;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #b9b0b0;
+        font-size: 24px;
+        font-weight: 100;
+    }
+    .button:hover {
+        transform: scale(1.01);
+        transition: 0.2s;
+    }

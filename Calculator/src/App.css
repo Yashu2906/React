@@ -1,0 +1,10 @@
+.App{
+    border: solid black 2px;
+    height: 570px;
+    width: 400px;
+    background-color: #ddeedd;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}

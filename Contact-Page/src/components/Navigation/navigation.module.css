@@ -1,0 +1,14 @@
+.navigation{
+    display: flex;
+    width: 1440px;
+    max-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    
+}   

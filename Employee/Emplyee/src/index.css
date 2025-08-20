@@ -1,0 +1,45 @@
+@import "tailwindcss";  
+
+*{
+  box-sizing: border-box;
+  color: #fff;
+  
+}
+
+body {
+  background-color: #1c1c1c;
+  overflow: hidden;
+  
+}
+#tasklist::-webkit-scrollbar{
+  display: none;
+}
+#input{
+  border: 1px solid rgba(194, 191, 191, 0.906);
+  background-color: #1c1c1c;
+  color: rgba(194, 191, 191, 0.906);
+  padding: 6px 8px;
+  border-radius: 5px;
+  width: 600px;
+}
+#date::-webkit-calendar-picker-indicator{
+  color:rgba(194, 191, 191, 0.906) ;
+}
+button {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.01) translateY(-1px);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  filter: brightness(0.9);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+#alltask::-webkit-scrollbar{
+  display: none;
+}

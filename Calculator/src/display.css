@@ -1,0 +1,9 @@
+.display{
+    border: none;
+    height: 50px;
+    font-size: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 20px;
+}
